@@ -1,0 +1,39 @@
+{:uriI"‡file://app/assets/builds/application.js.LICENSE.txt?type=text/plain&id=6f1f89fe9c9b8ee66beb3af9673246c5087c266f4fed6def927b85513b239039:ET:load_pathI"app/assets/builds;T:filenameI"1app/assets/builds/application.js.LICENSE.txt;T:	nameI"application.js.LICENSE;T:logical_pathI"application.js.LICENSE.txt;T:content_typeI"text/plain;T:sourceI"/*!
+Turbo 8.0.0-beta.1
+Copyright Â© 2023 37signals LLC
+ */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"4processors:type=text/plain&file_type=text/plain;TTI"?file-digest://app/assets/builds/application.js.LICENSE.txt;TTF:charsetI"
+utf-8;F:digest"%xÑğ—göè‡1QiJÅ!vœ>y&Ô\VƒÅÚ¥  jÄ:lengthi:environment_versionI"1.0;T:dependencies_digest"%Ñs>,t×zÚ_Ö©óD/1‹‹k:‹¥ú8—ò5j\:idI"E6f1f89fe9c9b8ee66beb3af9673246c5087c266f4fed6def927b85513b239039;F
