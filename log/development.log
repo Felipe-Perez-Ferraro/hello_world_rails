@@ -1,0 +1,310 @@
+Started GET "/" for 127.0.0.1 at 2023-12-04 19:29:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 422.2ms | Allocations: 75977)
+Completed 200 OK in 444ms (Views: 431.6ms | ActiveRecord: 0.0ms | Allocations: 83599)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 19:29:18 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (62.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 181ms (Views: 0.7ms | ActiveRecord: 77.6ms | Allocations: 20861)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 19:29:20 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4622)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 4845)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 19:29:20 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 608)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 19:59:08 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 1995)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 2213)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 19:59:09 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (14.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 26ms (Views: 1.1ms | ActiveRecord: 20.8ms | Allocations: 3205)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 19:59:11 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2010)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2228)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 19:59:12 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 593)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:04:19 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 76.4ms | Allocations: 21145)
+Completed 200 OK in 99ms (Views: 82.8ms | ActiveRecord: 0.0ms | Allocations: 25162)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:04:20 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (2.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 232ms (Views: 0.6ms | ActiveRecord: 21.8ms | Allocations: 17469)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:04:35 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 284.8ms | Allocations: 5804)
+Completed 200 OK in 286ms (Views: 285.5ms | ActiveRecord: 0.0ms | Allocations: 6033)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:05:12 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 271.3ms | Allocations: 4720)
+Completed 200 OK in 273ms (Views: 272.3ms | ActiveRecord: 0.0ms | Allocations: 4943)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:16:46 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 279.8ms | Allocations: 4745)
+Completed 200 OK in 282ms (Views: 281.1ms | ActiveRecord: 0.0ms | Allocations: 4968)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:17:06 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 304.3ms | Allocations: 4715)
+Completed 200 OK in 305ms (Views: 304.9ms | ActiveRecord: 0.0ms | Allocations: 4938)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:19:12 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 262.4ms | Allocations: 4728)
+Completed 200 OK in 263ms (Views: 262.9ms | ActiveRecord: 0.0ms | Allocations: 4951)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:19:13 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (21.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 45ms (Views: 0.6ms | ActiveRecord: 29.4ms | Allocations: 3863)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:19:20 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2019)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2245)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:19:20 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 613)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:19:23 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2022)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2245)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:19:23 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 603)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:19:26 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2013)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2236)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:19:26 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 610)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:23:38 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 319.1ms | Allocations: 4723)
+Completed 200 OK in 321ms (Views: 320.2ms | ActiveRecord: 0.0ms | Allocations: 4946)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:23:39 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 600)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:23:42 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2036)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2260)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:23:42 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 599)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:24:17 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2010)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 2233)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:24:17 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 600)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:24:22 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 252.6ms | Allocations: 4741)
+Completed 200 OK in 254ms (Views: 253.3ms | ActiveRecord: 0.0ms | Allocations: 4964)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:24:23 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 610)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:24:26 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1995)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2218)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:24:26 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 599)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:24:29 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2025)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2248)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:24:29 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 599)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:24:31 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2007)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2230)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:24:32 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 600)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-04 20:25:04 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 387.3ms | Allocations: 4719)
+Completed 200 OK in 398ms (Views: 388.5ms | ActiveRecord: 0.0ms | Allocations: 4942)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-12-04 20:25:05 -0300
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (12.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `index'
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 12.5ms | Allocations: 599)
+
+
